@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+}
+
+header {
+    background-color: #034ea8;
+}
+
+li {
+   box-sizing: border-box;
+   font-size: x-large;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+}
+
+header ul {
+    max-width: 1500px;
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color:#000;
+}
+
+header ul li:last-child a { /*menu na direita*/
+    float: right;
+    color: #000;
+
+}
+
+
+#formulario{
+    float: left;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    margin-bottom: 10em;
+}
+#formulario:focus{
+  background-color:white;
+}
+legend, #mensagem{
+  font-family: "Sumana", serif;
+  line-height: 2.5;
+  font-weight: bold;
+}
+button{
+  float: bottom;
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+  color: #FFF;
+  background-color: #00244f;
+  padding: 1em 2em;
+  font-size: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+button:hover,button:focus{
+  color:#6489b5;
+}
+#nome, #e-mail{
+  width: 100%;
+  height: 2.6em;
+  border: 2px #CDC9C9 solid;
+  box-shadow: inset 1px 1px .3rem white;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 85%;
+}
+#msg{
+  font-family: inherit;
+  font-size: 85%;
+  border: 2px white solid;
+  box-shadow: inset 1px 1px .3rem #FFE1FF;
+  box-sizing: border-box;
+}
+fieldset{
+  line-height: 2.5;
+}
+input:focus,textarea:focus {
+    background-color: #FFD;
+}
+input:invalid{
+  box-shadow: 0 0 3px red;
+}
+#outroTexto{
+  padding-top:.5em;
+  padding-bottom: .2em;
+
+}
+
+
+h1 {
+    text-align: center;
+     box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    color: #00244f;
+    font-size: xx-large;
+}
+    footer {
+        position: absolute; 
+        bottom: -300px; 
+        width: 100%; 
+        height: 80px; 
+        background-color: #00244f;
+        text-align: center;
+        color: white;
+    }

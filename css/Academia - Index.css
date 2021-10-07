@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black; 
+}
+
+header {
+    background-color: #034ea8;
+}
+
+li {
+   box-sizing: border-box;
+   font-size: x-large;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+}
+
+header ul {
+    max-width: 1500px;
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+
+}
+
+header ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+header ul li a:hover {
+    background-color: #ffffff;
+    color:#000;
+}
+
+header ul li:last-child a { /*menu na direita*/
+    float: right;
+    color: #000;
+
+}
+
+section {
+    width: 60%;
+    margin: 0px 160px;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    color: white;
+
+}
+
+
+footer {
+        position: all; 
+        bottom: 0px; 
+        width: 100%; 
+        height: 60px; 
+        background-color: #00244f;
+        text-align: center;
+        color: #00244f;
+        
+}
+
+h1 {
+    text-align: center;
+     box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+h2 {
+    text-align: center;
+     box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    color: white;
+    font-size: xx-large;
+}
+
+article {
+   box-sizing: border-box;
+   font-size: x-large;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    width: 60%;
+    margin: 0px 160px;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+   color: white;
+    size: +10;
+}
+
+
+figure {
+     box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    align-items: center;
+
+}
+
+footer {
+        position: all; 
+        bottom: 0px; 
+        width: 100%; 
+        height: 60px; 
+        text-align: center;
+        color: white;
+        
+}
